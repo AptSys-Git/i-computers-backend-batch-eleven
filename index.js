@@ -21,7 +21,7 @@ app.use( express.json() )
 
 app.use(authenticate)
 
-app.use("/students",studentRouter)
+
 app.use("/users" , userRouter)
 app.use("/products" , productRouter)
 
